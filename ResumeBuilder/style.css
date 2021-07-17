@@ -1,0 +1,47 @@
+#cvForm{
+    background-color: aliceblue;
+}
+
+#profile{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.background{
+    background-color: bisque;
+}
+
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#name{
+    background-color: bisque;
+}
+
+#namehr{
+    height:5px;
+    color:gray;
+    background-color:gray;
+    
+}
+
+#cvTemplate{
+    width: auto;
+    display: none;
+}
+
+@media print {
+    #cvTemplate{
+        height: 842px;
+        width: 595px;
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
